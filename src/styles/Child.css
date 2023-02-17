@@ -6,9 +6,7 @@
     border-radius: 5px;
     display: inline-block;
 }
-.fix-box:nth-child(1){
-    background: blue;
-}
+
 #master{
     border-radius: 5px;
     border: 2px white ridge;
