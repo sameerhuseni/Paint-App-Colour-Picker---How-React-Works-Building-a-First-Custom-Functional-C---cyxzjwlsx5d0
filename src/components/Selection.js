@@ -6,7 +6,7 @@ const Selection = (props) => {
    const { applyColor,color }=props;
   // applyColor()
   
-   const [state,setState]=useState({background:''})
+   const [state,setState]=useState({background:'blue'})
 
     return(
         <div className='fix-box' style={state} onClick={()=>{
