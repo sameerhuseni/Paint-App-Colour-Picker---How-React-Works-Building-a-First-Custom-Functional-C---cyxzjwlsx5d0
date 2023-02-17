@@ -10,9 +10,7 @@ const Selection = (props) => {
 
     return(
         <div className='fix-box' style={state} onClick={()=>{
-            applyColor(()=>{
-                setState(color)
-            })
+            applyColor(setState)
         }}>       
             <h2 className='subheading'>Selection</h2>
         </div>
